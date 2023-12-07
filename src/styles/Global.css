@@ -1,0 +1,129 @@
+body,
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.nav-body {
+    background-color: #00562C;
+}
+
+.nav-body div {
+    width: auto;
+    clip-path: polygon(0 0, 100% 0%, 88% 100%, 0% 100%);
+    background-color: #DDD62A;
+}
+
+.shop-sidebar {
+    width: 30%;
+    height: calc(100vh - 76px);
+    flex: 1;
+    border-left: 1px solid #00000050;
+}
+
+.ticket-card {
+    width: 18em;
+}
+
+.ticket-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ticket-card input {
+    width: 4em;
+}
+
+.ticket h6 {
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.ticket input {
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.div-visitor-data {
+    display: grid;
+    align-items: center;
+    background-color: #8181812f;
+    height: 10em;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+.ticket-entry {
+    margin-right: 20px;
+}
+
+.ticket-entry h6 {
+    margin-bottom: 0;
+}
+
+.ticket-entry-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticket-quantity h6 {
+    margin-left: auto;
+}
+
+.total {
+    box-sizing: border-box;
+}
+
+.div-payment {
+    display: flex;
+    align-items: center;
+    background-color: #8181812f;
+    height: 3em;
+    padding: 2px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.div-payment input {
+    width: 100%;
+    align-items: center;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.taquilla-heading {
+    font-size: 2rem;
+}
+
+.div-buy {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding: 2px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.headerOffers {
+    background-image: url('../img/zoo-fau-dt-comprar.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+}
+.div-menu {
+    background-color: #8c00a8;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.div-menu button {
+    padding: 10px;
+    border-radius: 5px;
+}
