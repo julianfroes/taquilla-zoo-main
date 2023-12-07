@@ -4,7 +4,7 @@ const host = 'https://apitaquilla-production.up.railway.app/api/';
 
 export const ApiUrls = createContext({
   // Sales
-  createVenta: host + 'ventas',
+  createSale: host + 'ventas',
   getSales: host + 'ventas',
   deleteVenta: host + 'ventas',  
   updateVenta: host + 'ventas/actualizar/',  

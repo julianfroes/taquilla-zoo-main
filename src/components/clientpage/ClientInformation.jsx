@@ -67,8 +67,10 @@ const ClientInformation = ({ individual, individualTotal, elderly, elderlyTotal,
                 detalles: details,
             }
 
+            console.log(urls.createSale)
+            console.log(dataSale)
             const res = await axios.post(urls.createSale, dataSale)
-
+            console.log(res.data)
             if (res.data.ventaId > 0) {
                 Swal.fire({
                     icon: "success",

@@ -115,15 +115,3 @@ html {
     background-size: cover;
     height: 15vh;
 }
-.div-menu {
-    background-color: #8c00a8;
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    overflow: hidden;
-}
-
-.div-menu button {
-    padding: 10px;
-    border-radius: 5px;
-}
